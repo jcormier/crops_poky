@@ -8,13 +8,13 @@ https://github.com/jcormier/crops_poky/pkgs/container/crops_poky
 Testing:
 
 ```
-docker run ghcr.io/jcormier/crops_poky:18.04 git clone https://git.linaro.org/toolchain/gcc.git
+docker run ghcr.io/jcormier/crops_poky:ubuntu-18.04 git clone https://git.linaro.org/toolchain/gcc.git
 Status: Downloaded newer image for ghcr.io/jcormier/crops_poky:18.04
 Cloning into 'gcc'...
 ```
 
 ```
-docker run ghcr.io/jcormier/crops_poky:20.04 git clone https://git.linaro.org/toolchain/gcc.git
+docker run ghcr.io/jcormier/crops_poky:ubuntu-20.04 git clone https://git.linaro.org/toolchain/gcc.git
 Status: Downloaded newer image for ghcr.io/jcormier/crops_poky:18.04
 Cloning into 'gcc'...
 ```
