@@ -54,7 +54,7 @@ jobs:
         with:
           context: ubuntu_18.04/.
           push: ${{ github.event_name != 'pull_request' }}
-          tags: 18.04
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:18.04
           labels: ${{ steps.meta.outputs.labels }}
           
       - name: Build and push Docker image 20.04
@@ -62,5 +62,5 @@ jobs:
         with:
           context: ubuntu_20.04/.
           push: ${{ github.event_name != 'pull_request' }}
-          tags: 18.04
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:20.04
           labels: ${{ steps.meta.outputs.labels }}
