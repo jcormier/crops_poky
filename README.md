@@ -1,4 +1,7 @@
 # crops_poky
+
+***20211022 - This workaround is no longer needed, the images have been rebuilt by crops***
+
 Update crops/poky:ubuntu-* images to add new ssl certs to fix letsencrypt ssl issue
 
 https://github.com/crops/poky-container/issues/68
